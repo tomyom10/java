@@ -1,0 +1,37 @@
+name: RareItemHunter
+version: '1.0.3-BETA'
+main: org.general.rareItemHunterRefactory.RareItemHunterRefactory
+author: segu
+api-version: '1.19'
+load: POSTWORLD
+
+commands:
+   rih:
+     description: "basics rare item hunter plugin command"
+     usage: "/rih <command>"
+     aliases: [ "rareItemHunter <command>" ]
+     permission: rih.command.execute
+     permission-message: "&c[Rare item hunter] Sorry, you dont have permission to do that"
+
+permissions:
+  rih.command.execute:
+    default: true
+    description: Gives the player permission to execute RIH commands.
+  rih.command.customItem:
+    default: op
+    description: Gives the player the permission to give itself plugin's custom items.
+  rih.command.spawnBoss:
+    default: op
+    description: Gives the player the permission to spawn a boss.
+  rih.announcement.newVersion:
+    default: op
+    description: Gives the player permission to see new available versions.
+  rih.command.teleportBoss:
+    default: op
+    description: Gives the player permission to teleport directly to the boss
+  rih.command.spawnStructureBoss:
+    default: op
+    description: Gives the player permission to configure the random boss spawning
+  rih.command.rih.help_menu:
+    default: true
+    description: Gives the player permission to configure the random boss spawning

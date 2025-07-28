@@ -1,0 +1,87 @@
+worlds:
+  #Due to this is a beta, I would recommend you to set only faction worlds or protections-free worlds.
+  main_world:
+    #be sure this name correctly refers to an existing world in your server.
+    name: "world"
+    #this sets the center of the circular area where bosses' structures will spawn
+    center_reference:
+    - 100.0 #x
+    - 100.0 #y
+    - 100.0 #z
+     #place the coordinates of your spawn here, use command /rih setCenter to change it exactly where you are standing
+    #how far from the center reference this structures will appear.
+    radius: 2000 #Beta warning: a very large radius might lag your server. Be careful!
+
+language: EN #Supported languages: English (EN), Spanish (ES), French (FR)
+notify-updates: true #If true, administrators will receive a message notifying a new version is available
+
+boss_settings:
+  frequency: 144000 #ticks [20 ticks = 1 second -> Default frequency is two hours] - This specifies how much time will pass between bosses' altars spawning.
+  delay: 144000 #ticks - This specifies how much time must pass since the server is on until a boss will first spawn.
+
+boss-random-spawn: true #By setting this to false, you will disable random-spawning bosses, avoiding structures appearing throughout the world
+
+bomber:
+  hp: 800 #bomber default health.
+  spawneable: true
+  #Aviable abilities: "TNT_ZOMBIES, Firework_explosion, Pointer_explosion, MOB_SPAWNING, TNT_RANDOM,
+  #POTION_EFFECT, TELEPORT, LIGHTING_PHANTOMS, ELECTRIC_HIT, POISON_ARROWS, ELECTRIC_HIT"
+  abilities:
+    - "TNT_ZOMBIES" #little zombies who appear and explodes in the following 3 seconds
+    - "Firework_explosion" #radial firework explosion!
+    - "Pointer_explosion" #aims directly to the player
+    - "TNT_RANDOM"
+    - "MOB_SPAWNING"
+    - "POTION_EFFECT"
+    - "TELEPORT"
+  drops: # make sure that the material belongs to Material's Minecraft class (Except rare essence), otherwise it won't work correctly!
+    - RARE_ESSENCE:
+        - 0 #MIN
+        - 2 #MAX
+    - DRAGON_EGG:
+        - 1 #MIN TO DROP
+        - 1 #MAX TO DROP
+skeleton:
+  #bomber default health.
+  hp: 820
+  #This defines if this boss is spawneable in your world or not.
+  spawneable: true
+    #Aviable abilities: "TNT_ZOMBIES, Firework_explosion, Pointer_explosion, MOB_SPAWNING, TNT_RANDOM,
+    #POTION_EFFECT, TELEPORT, LIGHTING_PHANTOMS, ELECTRIC_HIT, POISON_ARROWS, ELECTRIC_HIT"
+  abilities:
+    - "LIGHTING_PHANTOMS"
+    - "ELECTRIC_HIT"
+    - "POISON_ARROWS"
+    - "LIGHTING_PHANTOMS"
+    - "DIRECTIONAL_LIGHTING"
+    - "MOB_SPAWNING"
+    - "POTION_EFFECT"
+    - "TELEPORT"
+  drops: # make sure that the material belongs to Material's Minecraft class (Except rare essence or tributes), otherwise it won't work correctly!
+    - RARE_ESSENCE:
+        - 1 #MIN
+        - 2 #MAX
+    - DRAGON_EGG:
+        - 0 #MIN
+        - 1 #MAX
+
+  #=================
+  #= PERMISSION LIST #=
+  #=================
+  # Permission: rih.command.execute
+  # Description: Allows server admins to execute all core RIH commands
+  #
+  # Permission: rih.command.customItem
+  # Description: Allows server admins to give themselves custom plugin items
+  #
+  # Permission: rih.command.spawnBoss
+  # Description: Allows server admins to spawn bosses manually
+  #
+  # Permission: rih.command.teleportBoss
+  # Description: Allows server admins to teleport directly to bosses
+  #
+  # Permission: rih.command.rih.help_menu
+  # Description: Allows to access the RIH help menu
+  #
+  # Permission: rih.command.set_center
+  # Description: Allows server admins to set bosses spawn' center

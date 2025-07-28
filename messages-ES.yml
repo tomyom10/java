@@ -1,0 +1,162 @@
+no-boss-spawned: §c¡No hay ningún jefe al que buscar ahora! Mantén tu espada afilada
+  guerrero, podría aparecer en cualquier momento!
+boss-death-message: §c La entidad que estabas buscando ha caído bajo la espada de
+  los guerreros
+only-player-command: §c ¡Debes ser un jugador para usar este comando!
+no-permission-message: §c Lo siento, no tienes permiso para hacer eso
+compass-of-fate-message: §aTu brújula se ha iluminado, sigue la dirección que esta
+  indica y llegaras a un boss poderoso
+no-existent-rare: §c¡Lo siento, la esencia que intentas obtener no existe!
+bossSpawn-description: §7Invoca un jefe en la posición donde te encuentres
+customItem-description: |-
+  §7Dáte un objeto raro de la lista:
+  §7 - RARE_ESSENCE
+  §7 - FLY_ESSENCE
+  §7 - REPAIR_ESSENCE
+  §7 - HARDY_ESSENCE
+  §7 - BACKSTAB_ESSENCE
+  §7 - VAMPIRING_REGENERATION_ESSENCE
+  §7 - REGENERATION_ESSENCE
+help-description: Muestra este mensaje
+tutorial-description: Abre el tutorial en la interfaz gráfica
+setCenter-description: Establece un nuevo centro de referencia para los spawns de
+  los jefes
+no-player-found: §c¡Ese jugador no existe!
+boss-spawned: Ha aparecido un nuevo jefe
+center-reference: '§aCentro establecido en: '
+center-reference-updated: '§aReferencia del centro actualizada a: '
+no-bound-message: §c¡No se encontraron estructuras generadas!
+loading-chunk-message: §eCargando chunk...
+teleport-failed-message: §cError durante el teletransporte
+teleport-description: Teletranspórtate a la ubicación de la estructura del jefe
+teleport-success-message: §aTeletransportando...
+rare:
+  essence:
+    lore:
+      - §6Una esencia mística que irradia pura energía.
+      - §7Usada como base para crear esencias especializadas.
+      - §8§m─────────────
+      - '§d§lNivel: Común'
+      - §8§m─────────────
+compass_of_fate:
+  lore:
+    - §9Usame para encontrar bosses magicos
+    - §9Obtendras rare essences y otros drops epicos al matarlos!
+essences:
+  repair:
+    lore:
+      - §9Forjada por los maestros encantadores de una era olvidada.
+      - §9Contiene el secreto para reparar lo irrompible.
+      - §8§m─────────────
+      - '§d§lNivel: Raro'
+      - §8§m─────────────
+      - '§7Nivel Máximo: 5'
+  fly:
+    lore:
+      - §9Toma vuelo, viajero, pero recuerda
+      - §9que lo que vuela, algún día debe aterrizar.
+      - §3Forjado por exploradores que buscaban
+      - §3conquistar los cielos sin alas.
+      - §8§m─────────────
+      - '§d§lNivel: Ultra Raro'
+      - §8§m─────────────
+      - '§7Nivel Máximo: 5 (no acumulable)'
+  hardy:
+    lore:
+      - §cLa inmortalidad te ha encontrado
+      - §cCada uno añade medio corazón por nivel.
+      - '§7Máximo por pieza: Nivel 5'
+      - '§7Máximo total: Nivel 10 (acumulable)'
+      - §8§m─────────────
+      - '§6§lNivel: Raro'
+      - §8§m─────────────
+  backstab:
+    lore:
+      - §cLa traición nunca se sintió mejor
+      - §cInflige daño extra desde la espalda.
+      - '§7Máximo por pieza: Nivel 5'
+      - §8§m─────────────
+      - '§6§lNivel: Raro'
+      - §8§m─────────────
+  regeneration:
+    lore:
+      - §c¡Curación eterna!
+      - §cOtorga regeneración al equiparlo en la armadura.
+      - '§7Nivel Máximo: 1'
+      - §8§m─────────────
+      - '§6§lNivel: Ultra Raro'
+      - §8§m─────────────
+  vampiring:
+    lore:
+      - §c¡Robacorazones!
+      - §cGolpeando a un enemigo puedes robar 1 corazón por nivel
+      - '§7Nivel Máximo: 5'
+      - §8§m─────────────
+      - '§6§lNivel: Raro'
+      - §8§m─────────────
+tutorial:
+  fly:
+    lore:
+      - §9Toma vuelo, viajero, pero recuerda
+      - §9que lo que vuela, algún día debe aterrizar.
+      - §3Forjado por exploradores que buscaban
+      - §3conquistar los cielos sin alas.
+      - §r
+      - §d¡Haz clic para ver la receta!
+  hardy:
+    lore:
+      - §7Añade +½ corazón por nivel en la armadura.
+      - '§7Máximo por pieza: Nivel 5'
+      - '§7Máximo total: Nivel 10 (acumulable)'
+      - §r
+      - §d¡Haz clic para ver la receta!
+  backstab:
+    lore:
+      - §7Aumenta el daño desde la espalda.
+      - '§7Máximo por pieza: Nivel 5'
+      - §r
+      - §d¡Haz clic para ver la receta!
+  compass_of_fate:
+    lore:
+      - §9Util para encontrar altares de bosses
+      - §9Podras obtener rares y otros drops epicos cuando lo mates!
+      - §cEsto no es una esencia, es la puerta de entrada a obtenerlas!
+      - §r
+      - §d¡Haz clic para ver la receta!
+  regeneration:
+    lore:
+      - §7Otorga regeneración al equiparlo en la armadura.
+      - '§7Nivel Máximo: 1'
+      - §r
+      - §d¡Haz clic para ver la receta!
+  vampiring:
+    lore:
+      - §7Roba 0.5 - 2 corazones por nivel
+      - §7al dañar enemigos.
+      - '§7Nivel Máximo: 5'
+      - §r
+      - §d¡Haz clic para ver la receta!
+  repair:
+    lore:
+      - §7Repara objetos con el tiempo.
+      - §7Consume comida según el nivel.
+      - §7Solo aplicable a libros.
+      - '§7Nivel Máximo: 5'
+      - §r
+      - §d¡Haz clic para ver la receta!
+  rare:
+    lore:
+      - §6Una esencia mística que irradia pura energía.
+      - §7Usada como base para crear esencias especializadas.
+      - §8§m─────────────
+      - '§d§lNivel: Común'
+      - §8§m─────────────
+  recipes:
+    lore:
+      - §7Descubre todas las recetas que añade este plugin.
+      - §eHaz clic aquí para aprender cómo crear objetos únicos y mejoras.
+  bosses:
+    lore:
+      - §7Los jefes son criaturas mágicas y extremadamente poderosas.
+      - §7Sus altares aparecen en el Mundo de los Jefes.
+      - §7Usa la Brújula del Destino para cazarlos.

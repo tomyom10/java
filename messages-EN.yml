@@ -1,0 +1,158 @@
+no-boss-spawned: §cThere's no boss to seek now! Keep your sword sharp warrior, it
+  could spawn at anytime!
+boss-death-message: §c The entity you were looking at has fallen in hands of the warriors'
+  sword
+only-player-command: §c You must be a player to use this command!
+no-permission-message: §c Sorry, you don't have permission to do that
+compass-of-fate-message: §aA new boss spawned, follow the direction of your compass
+  to find it!
+no-existent-rare: §cSorry, the essence you are trying to get doesn't exist!
+bossSpawn-description: §7Spawn a boss wherever your position is
+customItem-description: |-
+  §7Give yourself a rare item of the list:
+  §7 - RARE_ESSENCE
+  §7 - FLY_ESSENCE
+  §7 - REPAIR_ESSENCE
+  §7 - HARDY_ESSENCE
+  §7 - BACKSTAB_ESSENCE
+  §7 - VAMPIRING_REGENERATION_ESSENCE
+  §7 - REGENERATION_ESSENCE
+help-description: Display this message
+tutorial-description: Opens GUI Tutorial
+setCenter-description: Sets a new reference center for boss' structures spawns
+no-player-found: §cThat player doesnt exist!
+boss-spawned: A new boss has appeared
+center-reference: '§aCenter set to: '
+center-reference-updated: '§aCenter reference updated to: '
+no-bound-message: §cNo spawned structures found!
+loading-chunk-message: §eLoading chunk...
+teleport-failed-message: §cError during teleport
+teleport-description: Teleport yourself to the boss' spawning structure location
+teleport-success-message: §aTeleporting...
+compass_of_fate:
+  lore:
+    - §9Use me to find some powerful bosses
+    - §9You will get rare essences and others wonderful drops by killing them!
+rare:
+  essence:
+    lore:
+      - §6Use me to craft some amazing items
+      - §cBe careful, this item tends to be very valuable
+      - §8§m─────────────
+      - '§6§lTier: Rare'
+      - §8§m─────────────
+essences:
+  repair:
+    lore:
+      - §9Crafted by the hands of master enchanters from a long-forgotten era
+      - §9This essence holds the key to mending what was thought unfixable.
+      - §8§m─────────────
+      - '§d§lTier: Rare'
+      - §8§m─────────────
+      - '§7Max Level: 5'
+  fly:
+    lore:
+      - §9Take flight, traveler, but remember
+      - §9what soars must one day land.
+      - §3Crafted by explorers who sought
+      - §3to conquer the heavens without wings.
+      - §8§m─────────────
+      - '§d§lTier: Ultra Rare'
+      - §8§m─────────────
+      - '§7Max Level: 5 (not stackable)'
+  hardy:
+    lore:
+      - §cImmortality has found you
+      - §cEach one adds half of a heart by level.
+      - '§7Max per piece: Level 5'
+      - '§7Max total: Level 10 (stackable)'
+      - §8§m─────────────
+      - '§6§lTier: Rare'
+      - §8§m─────────────
+  backstab:
+    lore:
+      - §cBetrayal has never felt better
+      - §cTake an additional 0.5 to 2 heart(s) * level
+      - §cOnly if you attack from behind.
+      - '§7Max Level: 5'
+      - §8§m─────────────
+      - '§6§lTier: Rare'
+      - §8§m─────────────
+  regeneration:
+    lore:
+      - §cHealing for eternity!
+      - §cApplies regeneration potion depending on the level
+      - '§7Max Level: 1'
+      - §8§m─────────────
+      - '§6§lTier: Ultra Rare'
+      - §8§m─────────────
+  vampiring:
+    lore:
+      - §cYou are such a heart stealer!
+      - §cBy hitting an enemy, you can steal 1 heart per level
+      - '§7Max Level: 5'
+      - §8§m─────────────
+      - '§6§lTier: Rare'
+      - §8§m─────────────
+tutorial:
+  fly:
+    lore:
+      - §7Grants flight when equipped on armor.
+      - §7Consumes food based on the level.
+      - §7Applicable to any armor piece.
+      - '§7Max Level: 5 (not stackable)'
+      - §r
+      - §dClick to view recipe!
+  bosses:
+    lore:
+      - §7Bosses are magical and extremely powerful creatures.
+      - §7Their altars spawn across the Bosses’ World.
+      - §7Use the Compass of Fate to hunt them down.
+      - §r
+      - §dClick to view recipe!
+  hardy:
+    lore:
+      - §7Adds +½ heart per level when on armor.
+      - '§7Max per piece: Level 5'
+      - '§7Max total: Level 10 (stackable)'
+      - §r
+      - §dClick to view recipe!
+  backstab:
+    lore:
+      - §7Increases damage dealt from behind.
+      - '§7Max per piece: Level 5'
+      - §r
+      - §dClick to view recipe!
+  regeneration:
+    lore:
+      - §7Grants Regeneration when equipped on armor.
+      - '§7Max Level: 1'
+      - §r
+      - §dClick to view recipe!
+  vampiring:
+    lore:
+      - §7Chance to steal 0.5 - 2 hearts per level
+      - §7when damaging enemies.
+      - '§7Max Level: 5'
+      - §r
+      - §dClick to view recipe!
+  repair:
+    lore:
+      - §7Repairs items over time.
+      - §7Consumes food based on the level.
+      - §7Can only be applied to books.
+      - '§7Max Level: 5'
+      - §r
+      - §dClick to view recipe!
+  rare:
+    lore:
+      - §6A mystical essence radiating pure energy.
+      - §7Used as a base for crafting specialized essences.
+      - §8§m─────────────
+      - '§d§lTier: Common'
+      - §8§m─────────────
+  recipes:
+    lore:
+      - §7Discover all the recipes this plugin adds.
+      - §eClick here to learn how to craft unique items and upgrades.
+

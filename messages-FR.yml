@@ -1,0 +1,147 @@
+boss-death-message: §c L'entité que vous regardiez est tombée sous l'épée des guerriers
+only-player-command: §cOnly players can executte this command!
+no-permission-message: §c Désolé, vous n'avez pas la permission de faire cela
+compass-of-fate-message: §aUn nouveau boss est apparu ! Suis la direction de ta boussole
+  pour le trouver.
+no-boss-spawned: §cIl n’y a aucun boss à traquer pour l’instant ! Garde ton épée affûtée,
+  guerrier, il peut apparaître à tout moment !
+no-existent-rare: §cDésolé, l'essence que vous essayez d'obtenir n'existe pas !
+bossSpawn-description: §7Invoque un boss à l'endroit où vous vous trouvez
+customItem-description: |-
+  §7Donnez-vous un objet rare de la liste :
+  §7 - RARE_ESSENCE
+  §7 - FLY_ESSENCE
+  §7 - REPAIR_ESSENCE
+  §7 - HARDY_ESSENCE
+  §7 - BACKSTAB_ESSENCE
+  §7 - VAMPIRING_REGENERATION_ESSENCE
+  §7 - REGENERATION_ESSENCE
+help-description: Affiche ce message
+tutorial-description: Ouvre le tutoriel dans l'interface graphique
+setCenter-description: Définit un nouveau centre de référence pour les apparitions
+  des structures des boss
+no-player-found: §cCe joueur n'existe pas !
+boss-spawned: Un nouveau boss est apparu
+center-reference: '§aCentre défini sur : '
+center-reference-updated: '§aRéférence du centre mise à jour sur : '
+no-bound-message: §cAucune structure apparue trouvée !
+loading-chunk-message: §eChargement du chunk...
+teleport-failed-message: §cErreur lors de la téléportation
+teleport-description: Téléportez-vous à l'emplacement de la structure où apparaît
+  le boss
+teleport-success-message: §aTéléportation...
+compass_of_fate:
+  lore:
+    - §9Utilise-moi pour trouver des boss puissants
+    - §9Tu obtiendras des essences rares et d’autres butins merveilleux en les éliminant
+      !
+essences:
+  fly:
+    lore:
+      - §7Confère le vol lorsqu'il est équipé sur une armure.
+      - §7Consomme de la nourriture selon le niveau.
+      - §7Applicable à toute pièce d'armure.
+      - '§7Niveau Max : 5 (non cumulable)'
+      - ' '
+      - §dClique pour voir la recette !
+  hardy:
+    lore:
+      - §7Ajoute +½ cœur par niveau lorsqu'il est sur une armure.
+      - '§7Max par pièce : Niveau 5'
+      - '§7Max total : Niveau 10 (cumulable)'
+      - ' '
+      - §dClique pour voir la recette !
+  backstab:
+    lore:
+      - §7Augmente les dégâts infligés par derrière.
+      - '§7Max par pièce : Niveau 5'
+      - ' '
+      - §dClique pour voir la recette !
+  regeneration:
+    lore:
+      - §7Confère la régénération lorsqu'il est équipé sur une armure.
+      - '§7Niveau Max : 1'
+      - ' '
+      - §dClique pour voir la recette !
+  vampiring:
+    lore:
+      - §7Chance de voler 0,5–2 cœurs par niveau
+      - §7en infligeant des dégâts aux ennemis.
+      - '§7Niveau Max : 5'
+      - ' '
+      - §dClique pour voir la recette !
+  repair:
+    lore:
+      - §7Répare les objets avec le temps.
+      - §7Consomme de la nourriture selon le niveau.
+      - §7Peut uniquement être appliqué aux livres.
+      - '§7Niveau Max : 5'
+      - ' '
+      - §dClique pour voir la recette !
+tutorial:
+  recipes:
+    lore:
+      - §7Découvrez toutes les recettes ajoutées par ce plugin.
+      - §eCliquez ici pour apprendre à fabriquer des objets et améliorations uniques.
+  rare:
+    lore:
+      - §6Une essence mystique irradiant une énergie pure.
+      - §7Utilisée comme base pour fabriquer des essences spécialisées.
+      - §8§m─────────────
+      - '§d§lNiveau : Commun'
+      - §8§m─────────────
+  bosses:
+    lore:
+      - §7Les boss sont des créatures magiques et extrêmement puissantes.
+      - §7Leurs autels apparaissent dans le Monde des Boss.
+      - §7Utilisez la Boussole du Destin pour les traquer.
+  fly:
+    lore:
+      - §7Accorde le vol lorsqu'équipé sur une armure.
+      - §7Consomme de la nourriture selon le niveau.
+      - §7Applicable à toute pièce d’armure.
+      - '§7Niveau Max : 5 (non cumulable)'
+      - §r
+      - §dClique pour voir la recette !
+  hardy:
+    lore:
+      - §7Ajoute +½ cœur par niveau lorsqu'il est sur une armure.
+      - '§7Max par pièce : Niveau 5'
+      - '§7Max total : Niveau 10 (cumulable)'
+      - §r
+      - §dClique pour voir la recette !
+  backstab:
+    lore:
+      - §7Augmente les dégâts infligés par derrière.
+      - '§7Max par pièce : Niveau 5'
+      - §r
+      - §dClique pour voir la recette !
+  regeneration:
+    lore:
+      - §7Confère Régénération lorsqu'équipé sur une armure.
+      - '§7Niveau Max : 1'
+      - §r
+      - §dClique pour voir la recette !
+  vampiring:
+    lore:
+      - §7Chance de voler 0,5 à 2 cœurs par niveau
+      - §7lorsque vous blessez des ennemis.
+      - '§7Niveau Max : 5'
+      - §r
+      - §dClique pour voir la recette !
+  repair:
+    lore:
+      - §7Répare les objets avec le temps.
+      - §7Consomme de la nourriture selon le niveau.
+      - §7Ne peut être appliqué qu’aux livres.
+      - '§7Niveau Max : 5'
+      - §r
+      - §dClique pour voir la recette !
+  compass_of_fate:
+    lore:
+      - §9Utilise-moi pour trouver des boss puissants
+      - §9Vous obtiendrez des essences rares et d’autres butins merveilleux en les tuant
+        !
+      - §cCe n’est pas une essence, c’est la clé pour les obtenir !
+      - §r
+      - §dClique pour voir la recette !
